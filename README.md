@@ -17,28 +17,27 @@ coordinates based on either city/state combinations or ZIP code inputs.
 
 ## PROJECT STRUCTURE ##
 
-GeoLocUtil/                # Project root
-├── geoloc_util/           # Main application package
+GeoLocUtil/                // Project root
+├── geoloc_util/           // Main application package
 │   ├── __init__.py
-│   ├── api.py             # API-related functions (retrieving geolocation data)
-│   ├── cli.py             # CLI argument parsing and interactive input helpers
-│   ├── cli_runner.py      # CLI mode execution logic
-│   ├── config_helper.py   # Helper functions for configuration loading and URL building
-│   ├── config.yaml        # YAML configuration file (API key, endpoints)
-│   ├── gui_runner.py      # GUI mode implementation using Tkinter
-│   ├── logger_setup.py    # Logger configuration (writes to a common log file)
-│   └── main.py            # Unified entry point (dispatches to CLI or GUI based on args)
-├── tests/                 # Test suite
-│   ├── conftest.py        # Pytest configuration and test result visualization hook
-│   ├── test_api.py        # Unit tests for API functions (simulated responses)
-│   ├── test_cli.py        # Unit tests for CLI helper functions
-│   ├── test_config_helper.py  # Unit tests for configuration helper functions
-│   └── test_integration.py    # Integration tests for end-to-end functionality
-├── logs/                  # Directory for log files (created at runtime)
-├── reports/               # Directory for test result visualizations (created at runtime)
-├── requirements.txt       # List of project dependencies
-└── README.md              # This file (project documentation)
-
+│   ├── api.py             // API-related functions (retrieving geolocation data)
+│   ├── cli.py             // CLI argument parsing and interactive input helpers
+│   ├── cli_runner.py      // CLI mode execution logic
+│   ├── config_helper.py   // Helper functions for configuration loading and URL building
+│   ├── config.yaml        // YAML configuration file (API key, endpoints)
+│   ├── gui_runner.py      // GUI mode implementation using Tkinter
+│   ├── logger_setup.py    // Logger configuration (writes to a common log file)
+│   └── main.py            // Unified entry point (dispatches to CLI or GUI based on args)
+├── tests/                 // Test suite
+│   ├── conftest.py        // Pytest configuration and test result visualization hook
+│   ├── test_api.py        // Unit tests for API functions (simulated responses)
+│   ├── test_cli.py        // Unit tests for CLI helper functions
+│   ├── test_config_helper.py  // Unit tests for configuration helper functions
+│   └── test_integration.py    // Integration tests for end-to-end functionality
+├── logs/                  // Directory for log files (created at runtime)
+├── reports/               // Directory for test result visualizations (created at runtime)
+├── requirements.txt       // List of project dependencies
+└── README.md              // This file (project documentation)
 
 
 ## INSTALLATION INSTRUCTIONS ##
