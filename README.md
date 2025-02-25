@@ -2,7 +2,6 @@ GeoLoc Util is a versatile geolocation retrieval utility that interfaces with th
 It supports both command-line (CLI) and graphical user interface (GUI) modes for retrieving geographic 
 coordinates based on either city/state combinations or ZIP code inputs.
 
-
 ## FEATURES ##
 
 - **Dual Interface:** Supports both CLI and GUI modes.
@@ -43,26 +42,26 @@ coordinates based on either city/state combinations or ZIP code inputs.
 
 1. **Clone the Repository:**
     
-    RUN:
     ```
+    RUN:
     git clone https://github.com/dmytro-palii/dmytro-palii-LiveCoding.git
     cd GeoLocUtil
 
 2. **CSet Up a Virtual Environment (Optional):**
-    
-    RUN
+
+    ```
+    RUN:
+    python -m venv venv
     On Windows: venv\Scripts\activate
     Linux or Mac: source venv/bin/activate    
-    ```
-    python -m venv venv
     env\Scripts\activate
 
 3. **Install Dependencies:**
 
-    RUN: 
-    Note: Tkinter is usually included with Python.
     ```
+    RUN: 
     pip install -r requirements.txt
+    Note: Tkinter is usually included with Python.
 
 ## CONFIGURATION DETAILS ##
 
@@ -109,14 +108,12 @@ coordinates based on either city/state combinations or ZIP code inputs.
 
 1. **Run All Tests:**
     
-    ```
     From the project root, execute:
-
-    pytest
-    
     After the tests run, a visual summary of test outcomes is generated and saved in the 
     reports/ directory as test_results.png.
 
+    ```
+    pytest
 
 ## DEPENDENCY INFORMATION ##
 
