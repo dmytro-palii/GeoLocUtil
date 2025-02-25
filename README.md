@@ -51,8 +51,8 @@ coordinates based on either city/state combinations or ZIP code inputs.
 2. **CSet Up a Virtual Environment (Optional):**
     
     RUN
-    # On Windows: venv\Scripts\activate
-    # Linux or Mac: source venv/bin/activate    
+    On Windows: venv\Scripts\activate
+    Linux or Mac: source venv/bin/activate    
     ```
     python -m venv venv
     env\Scripts\activate
