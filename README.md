@@ -42,23 +42,27 @@ coordinates based on either city/state combinations or ZIP code inputs.
 ## INSTALLATION INSTRUCTIONS ##
 
 1. **Clone the Repository:**
-
-   ```
-   RUN: git clone <repository-url>
-   RUN: cd GeoLocUtil
+    
+    RUN:
+    ```
+    git clone https://github.com/dmytro-palii/dmytro-palii-LiveCoding.git
+    cd GeoLocUtil
 
 2. **CSet Up a Virtual Environment (Optional):**
-
-    ```
-    RUN: python -m venv venv
+    
+    RUN
     # On Windows: venv\Scripts\activate
     # Linux or Mac: source venv/bin/activate    
+    ```
+    python -m venv venv
+    env\Scripts\activate
 
 3. **Install Dependencies:**
-    
-    ```
-    RUN: pip install -r requirements.txt
+
+    RUN: 
     Note: Tkinter is usually included with Python.
+    ```
+    pip install -r requirements.txt
 
 ## CONFIGURATION DETAILS ##
 
@@ -105,7 +109,7 @@ coordinates based on either city/state combinations or ZIP code inputs.
 
 1. **Run All Tests:**
     
-    ```bash
+    ```
     From the project root, execute:
 
     pytest
