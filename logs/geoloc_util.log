@@ -114,3 +114,88 @@ Longitude: -89.3837613
 Result: Beverly Hills (US)
 Latitude: 34.0901
 Longitude: -118.4065
+2025-03-03 21:53:11 [INFO] Processing location (GUI): 46410
+2025-03-03 21:53:11 [INFO] Fetching geolocation for ZIP code: 46410
+2025-03-03 21:53:11 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=46410,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-03 21:53:11 [DEBUG] Response JSON for 46410: {'zip': '46410', 'name': 'Merrillville', 'lat': 41.4957, 'lon': -87.3509, 'country': 'US'}
+2025-03-04 20:29:13 [INFO] Fetching geolocation for ZIP code: 90210
+2025-03-04 20:29:13 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=90210,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 20:29:13 [DEBUG] Response JSON for 90210: {'lat': 34.0901, 'lon': -118.4065, 'name': 'Beverly Hills', 'state': 'California', 'country': 'US'}
+2025-03-04 20:29:13 [INFO] Fetching geolocation for city/state: Madison, WI
+2025-03-04 20:29:13 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/direct?q=Madison,WI,US&limit=1&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 20:29:13 [DEBUG] Response JSON for Madison, WI: [{'lat': 43.0731, 'lon': -89.4012, 'name': 'Madison', 'state': 'Wisconsin', 'country': 'US'}]
+2025-03-04 20:29:13 [INFO] Fetching geolocation for city/state: Madison WI
+2025-03-04 20:29:13 [ERROR] Invalid city/state format: Madison WI
+2025-03-04 20:29:13 [INFO] Fetching geolocation for city/state: Madison
+2025-03-04 20:29:13 [ERROR] Invalid city/state format: Madison
+2025-03-04 20:29:13 [INFO] Fetching geolocation for ZIP code: ABC123
+2025-03-04 20:29:13 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=ABC123,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 20:29:14 [ERROR] Error fetching data for ABC123: {"cod":"404","message":"not found"}
+2025-03-04 20:29:14 [INFO] Fetching geolocation for city/state: Madison, WI
+2025-03-04 20:29:14 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/direct?q=Madison,WI,US&limit=1&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 20:29:14 [DEBUG] Response JSON for Madison, WI: [{'name': 'Madison', 'local_names': {'en': 'Madison', 'uk': 'Медісон', 'zh': '麦迪逊', 'ta': 'மேடிசன்', 'sr': 'Медисон', 'pl': 'Madison', 'ru': 'Мадисон'}, 'lat': 43.074761, 'lon': -89.3837613, 'country': 'US', 'state': 'Wisconsin'}]
+2025-03-04 20:29:14 [DEBUG] Output for Madison, WI:
+Result: Madison (US)
+Latitude: 43.074761
+Longitude: -89.3837613
+2025-03-04 20:29:14 [INFO] Fetching geolocation for ZIP code: 90210
+2025-03-04 20:29:14 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=90210,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 20:29:15 [DEBUG] Response JSON for 90210: {'zip': '90210', 'name': 'Beverly Hills', 'lat': 34.0901, 'lon': -118.4065, 'country': 'US'}
+2025-03-04 20:29:15 [DEBUG] Output for 90210:
+Result: Beverly Hills (US)
+Latitude: 34.0901
+Longitude: -118.4065
+2025-03-04 20:59:51 [INFO] Fetching geolocation for ZIP code: 90210
+2025-03-04 20:59:51 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=90210,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 20:59:51 [DEBUG] Response JSON for 90210: {'lat': 34.0901, 'lon': -118.4065, 'name': 'Beverly Hills', 'state': 'California', 'country': 'US'}
+2025-03-04 20:59:51 [INFO] Fetching geolocation for city/state: Madison, WI
+2025-03-04 20:59:51 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/direct?q=Madison,WI,US&limit=1&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 20:59:51 [DEBUG] Response JSON for Madison, WI: [{'lat': 43.0731, 'lon': -89.4012, 'name': 'Madison', 'state': 'Wisconsin', 'country': 'US'}]
+2025-03-04 20:59:51 [INFO] Fetching geolocation for city/state: Madison WI
+2025-03-04 20:59:51 [ERROR] Invalid city/state format: Madison WI
+2025-03-04 20:59:51 [INFO] Fetching geolocation for city/state: Madison
+2025-03-04 20:59:51 [ERROR] Invalid city/state format: Madison
+2025-03-04 20:59:51 [INFO] Fetching geolocation for ZIP code: ABC123
+2025-03-04 20:59:51 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=ABC123,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 20:59:51 [ERROR] Error fetching data for ABC123: {"cod":"404","message":"not found"}
+2025-03-04 20:59:52 [INFO] Fetching geolocation for city/state: Madison, WI
+2025-03-04 20:59:52 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/direct?q=Madison,WI,US&limit=1&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 20:59:52 [DEBUG] Response JSON for Madison, WI: [{'name': 'Madison', 'local_names': {'uk': 'Медісон', 'zh': '麦迪逊', 'ta': 'மேடிசன்', 'sr': 'Медисон', 'pl': 'Madison', 'ru': 'Мадисон', 'en': 'Madison'}, 'lat': 43.074761, 'lon': -89.3837613, 'country': 'US', 'state': 'Wisconsin'}]
+2025-03-04 20:59:52 [DEBUG] Output for Madison, WI:
+Result: Madison (US)
+Latitude: 43.074761
+Longitude: -89.3837613
+2025-03-04 20:59:52 [INFO] Fetching geolocation for ZIP code: 90210
+2025-03-04 20:59:52 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=90210,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 20:59:52 [DEBUG] Response JSON for 90210: {'zip': '90210', 'name': 'Beverly Hills', 'lat': 34.0901, 'lon': -118.4065, 'country': 'US'}
+2025-03-04 20:59:52 [DEBUG] Output for 90210:
+Result: Beverly Hills (US)
+Latitude: 34.0901
+Longitude: -118.4065
+2025-03-04 21:03:58 [INFO] Fetching geolocation for ZIP code: 90210
+2025-03-04 21:03:58 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=90210,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 21:03:58 [DEBUG] Response JSON for 90210: {'lat': 34.0901, 'lon': -118.4065, 'name': 'Beverly Hills', 'state': 'California', 'country': 'US'}
+2025-03-04 21:03:58 [INFO] Fetching geolocation for city/state: Madison, WI
+2025-03-04 21:03:58 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/direct?q=Madison,WI,US&limit=1&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 21:03:58 [DEBUG] Response JSON for Madison, WI: [{'lat': 43.0731, 'lon': -89.4012, 'name': 'Madison', 'state': 'Wisconsin', 'country': 'US'}]
+2025-03-04 21:03:58 [INFO] Fetching geolocation for city/state: Madison WI
+2025-03-04 21:03:58 [ERROR] Invalid city/state format: Madison WI
+2025-03-04 21:03:58 [INFO] Fetching geolocation for city/state: Madison
+2025-03-04 21:03:58 [ERROR] Invalid city/state format: Madison
+2025-03-04 21:03:58 [INFO] Fetching geolocation for ZIP code: ABC123
+2025-03-04 21:03:58 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=ABC123,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 21:03:58 [ERROR] Error fetching data for ABC123: {"cod":"404","message":"not found"}
+2025-03-04 21:03:59 [INFO] Fetching geolocation for city/state: Madison, WI
+2025-03-04 21:03:59 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/direct?q=Madison,WI,US&limit=1&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 21:03:59 [DEBUG] Response JSON for Madison, WI: [{'name': 'Madison', 'local_names': {'uk': 'Медісон', 'zh': '麦迪逊', 'ta': 'மேடிசன்', 'sr': 'Медисон', 'pl': 'Madison', 'ru': 'Мадисон', 'en': 'Madison'}, 'lat': 43.074761, 'lon': -89.3837613, 'country': 'US', 'state': 'Wisconsin'}]
+2025-03-04 21:03:59 [DEBUG] Output for Madison, WI:
+Result: Madison (US)
+Latitude: 43.074761
+Longitude: -89.3837613
+2025-03-04 21:03:59 [INFO] Fetching geolocation for ZIP code: 90210
+2025-03-04 21:03:59 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=90210,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 21:03:59 [DEBUG] Response JSON for 90210: {'zip': '90210', 'name': 'Beverly Hills', 'lat': 34.0901, 'lon': -118.4065, 'country': 'US'}
+2025-03-04 21:03:59 [DEBUG] Output for 90210:
+Result: Beverly Hills (US)
+Latitude: 34.0901
+Longitude: -118.4065
