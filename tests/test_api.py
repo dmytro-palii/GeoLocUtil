@@ -1,11 +1,16 @@
 from geoloc_util import api
 import requests
 
+"""
+Contains unit tests for the API functions. It simulates API responses using a DummyResponse class 
+and monkeypatching of requests.get to verify that API functions correctly process both valid and invalid inputs.
+"""
 
 class DummyResponse:
     """
     A dummy response class for simulating HTTP responses in tests.
     """
+
     def __init__(self, json_data, status_code, text=""):
         self._json = json_data
         self.status_code = status_code

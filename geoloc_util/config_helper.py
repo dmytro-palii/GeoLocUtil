@@ -1,6 +1,9 @@
 import os
 import yaml
 
+"""
+Loads configuration from a YAML file and builds API URLs.
+"""
 
 def load_config(config_filename='config.yaml'):
     """

@@ -1,6 +1,9 @@
 import os
 import logging
 
+"""
+Configures logging to a common log file.
+"""
 
 def setup_logger(log_file=None) -> logging.Logger:
     """

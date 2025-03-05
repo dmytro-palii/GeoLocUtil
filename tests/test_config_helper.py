@@ -3,6 +3,10 @@ import json
 import pytest
 from geoloc_util import config_helper
 
+"""
+Verifies that configuration loading and URL-building functions work as expected by 
+using temporary files and checking that the correct values are returned.
+"""
 
 def test_load_config(tmp_path):
     """

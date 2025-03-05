@@ -1,5 +1,8 @@
 import argparse
 
+"""
+Handles CLI argument parsing and interactive input.
+"""
 
 def parse_arguments():
     """

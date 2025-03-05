@@ -6,6 +6,11 @@ import pytest
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, project_root)
 
+"""
+Contains global test configuration, including a custom pytest hook that generates a 
+visual summary of test outcomes. 
+This file ensures that common test setup and reporting are centralized.
+"""
 
 def pytest_terminal_summary(terminalreporter, exitstatus, config):
     """

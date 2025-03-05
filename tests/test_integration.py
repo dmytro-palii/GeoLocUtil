@@ -2,6 +2,10 @@ import sys
 import subprocess
 import pytest
 
+"""
+Contains full integration tests that simulate running the entire application (via subprocess) to 
+ensure all components work together as expected.
+"""
 
 @pytest.mark.integration
 def run_util(*args):

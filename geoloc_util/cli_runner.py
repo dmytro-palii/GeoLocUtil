@@ -3,6 +3,9 @@ from .cli import parse_arguments, get_locations_interactively
 from .api import geolocate_location
 from .logger_setup import setup_logger
 
+"""
+Separate modules for running the application in CLI mode.
+"""
 
 def run_cli():
     """

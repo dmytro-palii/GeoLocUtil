@@ -3,6 +3,9 @@ from tkinter import scrolledtext
 from .api import geolocate_location
 from .logger_setup import setup_logger
 
+"""
+Separate modules for running the application in GUI mode.
+"""
 
 def run_gui():
     """

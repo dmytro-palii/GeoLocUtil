@@ -199,3 +199,54 @@ Longitude: -89.3837613
 Result: Beverly Hills (US)
 Latitude: 34.0901
 Longitude: -118.4065
+2025-03-04 21:11:48 [INFO] Processing location (GUI): 46410
+2025-03-04 21:11:48 [INFO] Fetching geolocation for ZIP code: 46410
+2025-03-04 21:11:48 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=46410,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-04 21:11:48 [DEBUG] Response JSON for 46410: {'zip': '46410', 'name': 'Merrillville', 'lat': 41.4957, 'lon': -87.3509, 'country': 'US'}
+2025-03-05 12:03:50 [INFO] Fetching geolocation for city/state: Madison, WI
+2025-03-05 12:03:50 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/direct?q=Madison,WI,US&limit=1&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-05 12:03:51 [DEBUG] Response JSON for Madison, WI: [{'name': 'Madison', 'local_names': {'uk': 'Медісон', 'zh': '麦迪逊', 'ta': 'மேடிசன்', 'sr': 'Медисон', 'pl': 'Madison', 'ru': 'Мадисон', 'en': 'Madison'}, 'lat': 43.074761, 'lon': -89.3837613, 'country': 'US', 'state': 'Wisconsin'}]
+2025-03-05 12:03:51 [DEBUG] Output for Madison, WI:
+Result: Madison (US)
+Latitude: 43.074761
+Longitude: -89.3837613
+2025-03-05 12:03:51 [INFO] Fetching geolocation for ZIP code: 90210
+2025-03-05 12:03:51 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=90210,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-05 12:03:51 [DEBUG] Response JSON for 90210: {'zip': '90210', 'name': 'Beverly Hills', 'lat': 34.0901, 'lon': -118.4065, 'country': 'US'}
+2025-03-05 12:03:51 [DEBUG] Output for 90210:
+Result: Beverly Hills (US)
+Latitude: 34.0901
+Longitude: -118.4065
+2025-03-05 12:04:07 [INFO] Fetching geolocation for ZIP code: 46410
+2025-03-05 12:04:07 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=46410,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-05 12:04:07 [DEBUG] Response JSON for 46410: {'zip': '46410', 'name': 'Merrillville', 'lat': 41.4957, 'lon': -87.3509, 'country': 'US'}
+2025-03-05 12:04:07 [DEBUG] Output for 46410:
+Result: Merrillville (US)
+Latitude: 41.4957
+Longitude: -87.3509
+2025-03-05 12:57:58 [INFO] Processing location (GUI): 46410
+2025-03-05 12:57:58 [INFO] Fetching geolocation for ZIP code: 46410
+2025-03-05 12:57:58 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=46410,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-05 12:57:58 [DEBUG] Response JSON for 46410: {'zip': '46410', 'name': 'Merrillville', 'lat': 41.4957, 'lon': -87.3509, 'country': 'US'}
+2025-03-05 12:58:32 [INFO] Processing location (GUI): 46410
+2025-03-05 12:58:32 [INFO] Fetching geolocation for ZIP code: 46410
+2025-03-05 12:58:32 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=46410,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-05 12:58:32 [DEBUG] Response JSON for 46410: {'zip': '46410', 'name': 'Merrillville', 'lat': 41.4957, 'lon': -87.3509, 'country': 'US'}
+2025-03-05 12:58:32 [INFO] Processing location (GUI): 90210
+2025-03-05 12:58:32 [INFO] Fetching geolocation for ZIP code: 90210
+2025-03-05 12:58:32 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=90210,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-05 12:58:32 [DEBUG] Response JSON for 90210: {'zip': '90210', 'name': 'Beverly Hills', 'lat': 34.0901, 'lon': -118.4065, 'country': 'US'}
+2025-03-05 12:59:14 [INFO] Fetching geolocation for city/state: Madison, WI
+2025-03-05 12:59:14 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/direct?q=Madison,WI,US&limit=1&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-05 12:59:14 [DEBUG] Response JSON for Madison, WI: [{'name': 'Madison', 'local_names': {'uk': 'Медісон', 'zh': '麦迪逊', 'ta': 'மேடிசன்', 'sr': 'Медисон', 'pl': 'Madison', 'ru': 'Мадисон', 'en': 'Madison'}, 'lat': 43.074761, 'lon': -89.3837613, 'country': 'US', 'state': 'Wisconsin'}]
+2025-03-05 12:59:14 [DEBUG] Output for Madison, WI:
+Result: Madison (US)
+Latitude: 43.074761
+Longitude: -89.3837613
+2025-03-05 12:59:14 [INFO] Fetching geolocation for ZIP code: 90210
+2025-03-05 12:59:14 [DEBUG] Request URL: http://api.openweathermap.org/geo/1.0/zip?zip=90210,US&appid=f897a99d971b5eef57be6fafa0d83239
+2025-03-05 12:59:14 [DEBUG] Response JSON for 90210: {'zip': '90210', 'name': 'Beverly Hills', 'lat': 34.0901, 'lon': -118.4065, 'country': 'US'}
+2025-03-05 12:59:14 [DEBUG] Output for 90210:
+Result: Beverly Hills (US)
+Latitude: 34.0901
+Longitude: -118.4065

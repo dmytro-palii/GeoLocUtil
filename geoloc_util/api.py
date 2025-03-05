@@ -4,6 +4,9 @@ from .config_helper import build_zip_url, build_direct_url
 
 logger = setup_logger()
 
+"""
+Contains functions that interact with the OpenWeather Geocoding API.
+"""
 
 def get_geolocation_by_zip(zip_code: str):
     """
