@@ -1,10 +1,13 @@
 import os
 import sys
-import matplotlib.pyplot as plt
-import pytest
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, project_root)
+
+import pytest
+import matplotlib.pyplot as plt
+
+from geoloc_util import cache
 
 """
 Contains global test configuration, including a custom pytest hook that generates a 
@@ -69,4 +72,21 @@ def pytest_configure(config):
     config.addinivalue_line(
         "markers", "integration: mark test as an integration test"
     )
+
+
+@pytest.fixture
+def temp_cache_file(tmp_path):
+    """
+    Fixture to override the CACHE_FILE path in the cache module
+    with a temporary file, ensuring that tests do not interfere with
+    the actual cache file.
+    """
+
+    temp_file = tmp_path  / "cache.json"
+    cache.CACHE_FILE = str(temp_file)
+
+    if os.path.exists(str(temp_file)):
+        os.remove(str(temp_file))
+
+    return str(temp_file)
 

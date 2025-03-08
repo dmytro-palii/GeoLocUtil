@@ -20,7 +20,7 @@ class DummyResponse:
         return self._json
 
 
-def test_get_geolocation_by_zip(monkeypatch):
+def test_get_geolocation_by_zip(monkeypatch, temp_cache_file):
     """
     Test that get_geolocation_by_zip returns the correct geolocation data
     for a valid ZIP code ("90210"). This test uses monkeypatch to simulate

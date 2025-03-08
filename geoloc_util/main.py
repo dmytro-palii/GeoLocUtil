@@ -13,9 +13,6 @@ import argparse
 from .cli_runner import run_cli
 from .gui_runner import run_gui
 
-# TODO - parallelization
-# TODO - do not make API request if it was made before (collect response data from previous request abd return id request is the same)
-
 """
 Unified entry point, dispatching to CLI or GUI mode based on the provided arguments or environment.
 """
